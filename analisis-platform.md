@@ -4,16 +4,16 @@
 
 | Aspek | Web | Desktop | Mobile |
 |---|---|---|---|
-| Bahasa utama | HTML, CSS, JavaScript (sisi client); Python atau Java (sisi server) | C++, Java, Python | Java dan Kotlin (Android), Swift (iOS) |
-| Arsitektur | Client-server: browser meminta data ke server melalui HTTP | Aplikasi berjalan langsung di komputer pengguna (standalone), kadang terhubung ke server | Aplikasi di perangkat yang umumnya terhubung ke server lewat API |
-| Cara distribusi | Diakses lewat browser menggunakan URL, tanpa instalasi | Diunduh dan diinstal lewat installer (.exe, .dmg, .deb) | Diunduh dari toko aplikasi (Google Play Store, App Store) |
-| Keunggulan | Bisa diakses dari perangkat apa saja; update langsung di server; tidak perlu instalasi | Performa tinggi; akses penuh ke file dan hardware komputer; bisa berjalan offline | Praktis dibawa kemana-mana; akses sensor (kamera, GPS); mendukung notifikasi |
-| Keterbatasan | Bergantung pada koneksi internet dan browser; akses hardware terbatas | Harus diinstal di tiap perangkat; sering bergantung pada sistem operasi tertentu | Ukuran layar kecil; harus mengikuti aturan toko aplikasi; perlu menyesuaikan banyak jenis perangkat |
-| Contoh aplikasi | Google Docs, Tokopedia (versi web), Wikipedia | Visual Studio Code, Microsoft Word, Notepad++ | WhatsApp, Gojek, Instagram |
+| Bahasa utama | HTML untuk struktur halaman, CSS untuk tampilan, JavaScript untuk interaksi; di sisi server bisa memakai Python atau Node.js | C++, Python, Java (C# juga umum di Windows) | Kotlin dan Java untuk Android, Swift untuk iPhone |
+| Arsitektur | Browser (client) mengirim permintaan ke server, lalu server membalas dengan halaman atau data | Program dijalankan langsung dari komputer, dan datanya sering disimpan di komputer itu sendiri | Aplikasi di HP yang biasanya mengambil dan mengirim data ke server lewat API |
+| Cara distribusi | Pengguna cukup membuka alamat website (URL) di browser | Pengguna mengunduh file installer (misalnya .exe di Windows) lalu memasangnya | Pengguna mengunduh dari Play Store atau App Store |
+| Keunggulan | Tidak perlu dipasang, bisa dibuka di laptop maupun HP, dan perubahan dari developer langsung dirasakan semua pengguna | Berjalan cepat dan lancar, bebas memakai file serta perangkat komputer, dan tetap bisa dipakai tanpa internet | Selalu ada di saku, bisa memakai kamera, GPS, dan notifikasi |
+| Keterbatasan | Tanpa internet sering tidak bisa dipakai, dan tampilannya bisa berbeda antar browser | Harus dipasang satu per satu di setiap komputer, dan sering hanya cocok untuk satu sistem operasi | Layar sempit, harus lolos aturan toko aplikasi, dan harus cocok di banyak ukuran HP |
+| Contoh aplikasi | Wikipedia, Google Docs, Tokopedia di browser | VS Code, Microsoft Excel, Notepad++ | WhatsApp, Gojek, Spotify |
 
 ## Penjelasan Singkat
 
-Dari bahasa yang sudah saya kenal (Python, C++, JavaScript, dan HTML), setiap bahasa punya peran di platform yang berbeda. HTML dan JavaScript menjadi dasar halaman web, dan JavaScript juga bisa dipakai di sisi server lewat Node.js. Python dapat dipakai di sisi server pada web maupun untuk membuat aplikasi desktop sederhana. C++ banyak dipakai untuk aplikasi desktop yang membutuhkan performa tinggi. Untuk Mobile, bahasa utamanya adalah Java dan Kotlin (Android) serta Swift (iOS), meskipun saya belum pernah memakainya.
+Bahasa yang pernah saya pakai (Python, C++, JavaScript, dan HTML) ternyata cocok untuk platform yang berbeda-beda. HTML dan JavaScript dipakai untuk membuat web, dan JavaScript bisa berjalan di luar browser lewat Node.js. Python bisa dipakai untuk bagian server web dan program desktop sederhana. C++ cocok untuk program desktop yang butuh kecepatan. Untuk mobile, saya belum pernah membuatnya, tetapi bahasa yang umum dipakai adalah Java atau Kotlin (Android) dan Swift (iPhone).
 
 ## Referensi
 
